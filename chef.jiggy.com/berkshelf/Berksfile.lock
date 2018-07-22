@@ -1,0 +1,58 @@
+DEPENDENCIES
+  apt-upgrade-once (~> 0.2.1)
+  chef-updater (~> 2.1.0)
+  firewalld (~> 1.1.5)
+  iptables (~> 4.3.4)
+  jiggy-proxy
+    git: https://github.com/jjp1023/jiggy-proxy.git
+    revision: dd9ce79d2b6350e02f9b9854e68dd10a2e8722e1
+    tag: 0.1.0
+  oh-my-zsh
+    git: https://github.com/jjp1023/oh-my-zsh.git
+    revision: 6f0dd5ee2aa9356bb01e3c2365802d88d9d915f0
+  plex (~> 0.2.3)
+  yum (~> 5.1.0)
+  yum-centos (~> 3.0.0)
+  zshell (~> 0.4.1)
+
+GRAPH
+  acme (4.0.0)
+    compat_resource (>= 12.19)
+  apache2 (5.0.1)
+  apt (7.0.0)
+  apt-upgrade-once (0.2.1)
+  build-essential (8.1.1)
+    mingw (>= 1.1)
+    seven_zip (>= 0.0.0)
+  chef-sugar (4.0.0)
+  chef-updater (2.1.0)
+    chef-sugar (>= 0.0.0)
+    poise (~> 2.6)
+  compat_resource (12.19.1)
+  firewalld (1.1.5)
+  git (9.0.1)
+    build-essential (>= 5.0.0)
+  iptables (4.3.4)
+  jiggy-proxy (0.1.0)
+    acme (~> 4.0.0)
+    apache2 (~> 5.0.1)
+  mingw (2.0.2)
+    seven_zip (>= 0.0.0)
+  multipackage (3.0.30)
+    compat_resource (>= 0.0.0)
+  oh-my-zsh (0.4.2)
+    git (>= 0.0.0)
+    users (>= 0.0.0)
+    zsh (>= 0.0.0)
+  plex (0.2.3)
+  poise (2.8.2)
+  seven_zip (3.0.0)
+    windows (>= 0.0.0)
+  users (5.4.0)
+  windows (4.3.4)
+  yum (5.1.0)
+  yum-centos (3.0.0)
+  zsh (2.0.0)
+    multipackage (~> 3.0)
+  zshell (0.4.1)
+    apt (>= 0.0.0)

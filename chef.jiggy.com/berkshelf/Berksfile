@@ -1,0 +1,12 @@
+source 'https://supermarket.chef.io'
+
+cookbook 'firewalld', '~> 1.1.5'
+cookbook 'iptables', '~> 4.3.4'
+cookbook 'chef-updater', '~> 2.1.0'
+cookbook 'zshell', '~> 0.4.1'
+cookbook 'apt-upgrade-once', '~> 0.2.1'
+cookbook 'yum', '~> 5.1.0'
+cookbook 'yum-centos', '~> 3.0.0'
+cookbook 'plex', '~> 0.2.3'
+cookbook 'oh-my-zsh', git: 'https://github.com/jjp1023/oh-my-zsh.git'
+cookbook 'jiggy-proxy', git: 'https://github.com/jjp1023/jiggy-proxy.git', tag: '0.1.0'
