@@ -34,3 +34,13 @@ Something i am trying to put together:)
 ### Documents: Contains work plans and do documents I found useful
 
 ### Networking: Networking diagram for my home lab.
+
+#### ESXi
+
+Command line interface:
+
+* View VM's `vim-cmd /vmsvc/getallvms` to list all registered VMs
+
+**Get the ID of the VM you removed the files for (the first column of output). Mine said invalid vm skipped but showed the ID**
+
+* Remove `vim-cmd /vmsvc/unregister <id>` to unregister that VM.
