@@ -1,0 +1,22 @@
+server {
+  listen 80 default_server;
+  listen [::]:80 default_server;
+  server_name jiggyjigs.me www.jiggyjigs.me;
+
+  return 301 https://jiggyjigs.me;
+}
+
+# Main Server Configuration
+server {
+  listen 443 ssl default_server;
+  listen [::]:443 ssl default_server;
+
+  root /var/www/html;
+  index index.html;
+  server_name jiggyjigs.me www.jiggyjigs.me;
+
+  # By default, Show webpages
+  location / {
+    return 301 https://jiggyjigs.me; # Redirect to google pages
+  }
+}

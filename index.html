@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to Jiggy's Server!</title>
+<style>
+  body {
+    width: 35em;
+    margin: 0 auto;
+    font-family: Tahoma, Verdana, Arial, sans-serif;
+  }
+  #customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+
+  #customers tr:hover {background-color: #ddd;}
+
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+</style>
+</head>
+<body>
+<h1>Welcome to Jiggy's Server!</h1>
+
+  <table id="customers">
+    <tr>
+      <td>ESXI SERVER</td>
+      <td><a href="ui">Esxi</a></td>
+    </tr>
+    <tr>
+      <td>Download Movies - Radarr</td>
+      <td><a href="movies">Movies</a></td>
+    </tr>
+    <tr>
+      <td>Download TV Shows - Sonarr</td>
+      <td><a href="tv">Tv Shows</a></td>
+    </tr>
+    <tr>
+      <td>Usage - Tautulli</td>
+      <td><a href="tautulli">Tautulli</a></td>
+    </tr>
+    <tr>
+      <td>Download Client - Sabnzbd</td>
+      <td><a href="download">Sabnzbd</a></td>
+    </tr>
+    <tr>
+      <td>Indexer - NZBHydra</td>
+      <td><a href="indexer">NZBHydra</a></td>
+    </tr>
+    <tr>
+      <td>Portainer - Containers</td>
+      <td><a href="portainer">Portainer</a></td>
+    </tr>
+    <tr>
+      <td>Traefik - Non-SSL</td>
+      <td><a href="traefik">Traefik - 80</a></td>
+    </tr>
+    <tr>
+      <td>Traefik - Non-SSL</td>
+      <td><a href="traefik">Traefik - 443
+      </a></td>
+    </tr>
+  </table>
+</body>
+</html>
