@@ -2,6 +2,8 @@
 
 ### Ubuntu
 
+Link: https://computingforgeeks.com/how-to-install-and-configure-zabbix-agent-4-0-on-ubuntu-18-04-and-centos-7/
+
 Download and install package
 
 ```bash
@@ -33,3 +35,4 @@ Login to admin Zabbix server interface, and go to **Configuration** > **Hosts** 
 * Select the group or add a new group for **“Groups”** field.
 * IP address
 * Zabbix agent service port -default is 10050
+...
